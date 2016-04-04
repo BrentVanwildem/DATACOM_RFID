@@ -5,9 +5,20 @@
     xmlns:local="using:DATACOM_RFID_UWP"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:pages="using:DATACOM_RFID_UWP.Pages"
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <Pivot>
+            <PivotItem Header="Inschrijving">
+                <pages:Inschrijving/>
+            </PivotItem>
+            <PivotItem Header="TussenPunt - Tijdsopmeting">
+                <pages:TussenPunt/>
+            </PivotItem>
+            <PivotItem Header="Finish - Tijdsopmeting">
+                <pages:Finish/>
+            </PivotItem>
+        </Pivot>
     </Grid>
 </Page>

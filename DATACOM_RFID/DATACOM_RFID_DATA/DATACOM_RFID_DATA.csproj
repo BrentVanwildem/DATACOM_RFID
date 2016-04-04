@@ -110,6 +110,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\DATACOM_RFID_DATA.rd.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DATACOM_RFID_MODELS\DATACOM_RFID_MODELS.csproj">
+      <Project>{7a4f9fb7-3a2e-4353-baed-20d00f85482a}</Project>
+      <Name>DATACOM_RFID_MODELS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
