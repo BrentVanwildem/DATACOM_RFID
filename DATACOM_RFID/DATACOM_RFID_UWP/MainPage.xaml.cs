@@ -27,6 +27,7 @@ namespace DATACOM_RFID_UWP
             this.InitializeComponent();
 
             //testje
+            //testje 2
         }
     }
 }
