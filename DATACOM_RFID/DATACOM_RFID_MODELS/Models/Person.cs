@@ -14,6 +14,6 @@ namespace DATACOM_RFID_MODELS.Models
         public int Leeftijd { get; set; }
         public string Postcode { get; set; }
         public string Gemeente { get; set; }
-        public string Email { get; set; }
+
     }
 }

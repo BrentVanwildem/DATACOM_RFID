@@ -25,9 +25,6 @@ namespace DATACOM_RFID_UWP
         public MainPage()
         {
             this.InitializeComponent();
-
-            //testje
-            //testje 2
         }
     }
 }
