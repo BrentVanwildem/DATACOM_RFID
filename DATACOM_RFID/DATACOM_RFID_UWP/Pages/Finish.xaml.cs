@@ -71,7 +71,7 @@ namespace DATACOM_RFID_UWP.Pages
 
         private void txtRFIDdetect_KeyDown(object sender, KeyEventArgs e)
         {
-            if(e.KeyStatus == Keys)
+            //if(e.KeyStatus == Keys)
 
         }
     }

@@ -16,5 +16,7 @@ namespace DATACOM_RFID_MODELS.Models
         public DateTime GeboorteDatum { get; set; }
         public string Geslacht { get; set; }
         public string Gehakt { get; set; }
+
+        //test
     }
 }
