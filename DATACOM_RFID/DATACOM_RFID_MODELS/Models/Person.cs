@@ -15,5 +15,6 @@ namespace DATACOM_RFID_MODELS.Models
         public string  Club { get; set; }
         public DateTime GeboorteDatum { get; set; }
         public string Geslacht { get; set; }
+        public string Gehakt { get; set; }
     }
 }
