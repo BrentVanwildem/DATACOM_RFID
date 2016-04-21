@@ -9,11 +9,11 @@ namespace DATACOM_RFID_MODELS.Models
    public class Person
     {
         public int PersonID { get; set; }
-        public string Voornaam { get; set; }
-        public string FamilieNaam { get; set; }
-        public int Leeftijd { get; set; }
-        public string Postcode { get; set; }
+        public string Naam { get; set; }
+        public string  Voornaam { get; set; }
         public string Gemeente { get; set; }
-        public string Email { get; set; }
+        public string  Club { get; set; }
+        public DateTime GeboorteDatum { get; set; }
+        public string Geslacht { get; set; }
     }
 }

@@ -9,6 +9,6 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPressedForegroundThemeBrush}">
-        
+       <TextBox  x:Name="txtRFIDdetect" FontSize="120" KeyDown="txtRFIDdetect_KeyDown"/>
     </Grid>
 </Page>

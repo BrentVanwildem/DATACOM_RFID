@@ -107,6 +107,7 @@
     <Compile Include="Pages\Inschrijving.xaml.cs">
       <DependentUpon>Inschrijving.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\KeyPressedEventArgs.cs" />
     <Compile Include="Pages\TussenPunt.xaml.cs">
       <DependentUpon>TussenPunt.xaml</DependentUpon>
     </Compile>
