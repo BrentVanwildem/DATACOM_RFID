@@ -38,8 +38,8 @@ namespace DATACOM_RFID_UWP.Pages
         {
             
        
-            //WebRequest request = (HttpWebRequest)WebRequest.Create("http://172.23.49.1/axis-cgi/jpg/image.cgi");
-            //request.Credentials = new NetworkCredential("student", "voetbal");
+            WebRequest request = (HttpWebRequest)WebRequest.Create("http://172.23.49.1/axis-cgi/jpg/image.cgi");
+            request.Credentials = new NetworkCredential("student", "voetbal");
             //var response = request.GetResponse();
 
 
